@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre</title>
+    <link rel="stylesheet" href="style.css">
+</head>    
+<body>  
+    <div class="ladoescuro">
+
+     <div class="emblema">
+        <img src="imagens/Corvo.png" alt="Corvo" class="icone">  
+       <h1>A aventura está a teu aguardo</h1>
+       <p>Enquanto você esteve fora, o corvo vigou a lâmina sob as estrelas</p>
+     </div>
+         
+     <p class="rodape">© - Tela de Login - </p>
+    </div>
+
+        <div class="ladovermelho">
+         <div class="caixaformulario">
+            <h2>Entre</h2>
+            <p>Não possui uma conta? <a href="#">Crie uma conta</a></p>
+
+            <div class ="aviso"  id ="aviso">E-mail ou senha incorretos, tente novamente.</div>
+            
+            <form id="formulariologin" novalidate>
+                <div class="campo" id="campoemail">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="voce@exemplo.com">
+                    <span class="campoerro" id="erroemail">Digite um e-mail válido.</span>
+                </div>
+                
+                <div class="campo" id="camposenha">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="••••••••">
+                    <span class="campoerro" id="errosenha">A senha precisa ter pelo menos 6 caracteres.</span>
+                </div>
+
+                <div class="linhaentre">
+                    <label class="lembrar">
+                        <input type="checkbox">
+                        Manter conectado
+                    </label>
+                    <a href="#">Esqueceu a senha ?</a>
+                </div>
+
+                <button type="submit" id="botaoentrar">
+                    <span class="textobotao">Entre</span>
+                    <span class="carregando"></span>
+                </button>
+            </form>    
+
+            <div class="divisor"></div>
+            </div>    
+         </div>   
+        </div>
+<script src="script.js"></script> 
+</body> 
+</html>
