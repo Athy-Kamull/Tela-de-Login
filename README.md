@@ -3,7 +3,7 @@ Tela de Login — Tema RPG
 Projeto: uma tela de login responsiva com identidade visual própria, construída com HTML, CSS e JavaScript puro.
 
 ## 🔗 Ver ao vivo
-Link do site publicado aqui: (https://athy-kamull.github.io/Tela-de-Login/)
+Link do site publicado aqui: https://athy-kamull.github.io/Tela-de-Login/
 
 ## ✨ Funcionalidades
 - Layout responsivo (desktop e celular)
