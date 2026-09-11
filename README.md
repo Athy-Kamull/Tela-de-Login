@@ -6,10 +6,13 @@ Projeto: uma tela de login responsiva com identidade visual própria, construíd
 Link do site publicado aqui: https://athy-kamull.github.io/Tela-de-Login/
 
 ## ✨ Funcionalidades
-- Layout responsivo (desktop e celular)
-- Validação de formulário em tempo real (e-mail e senha) com JavaScript
-- Animação de carregamento no botão
-- Emblema e paleta de cores personalizados
+- Layout responsivo para desktop e celular
+- Validação de formulário em tempo real
+- Validação de e-mail e senha com JavaScript
+- Animação de carregamento no botão de login
+- Feedback visual para campos inválidos
+- Emblema e identidade visual personalizados
+- Paleta de cores inspirada em fantasia medieval
 
 ## 🛠️ Tecnologias
 - HTML5
